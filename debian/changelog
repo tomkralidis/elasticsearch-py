@@ -1,0 +1,50 @@
+python-elasticsearch (6.2.0-1) unstable; urgency=medium
+
+  * Packaging for pygeoapi requirements.
+
+ -- Tom Kralidis <tomkralidis@gmail.com>  Thu, 03 May 2018 20:25:10 +0000
+
+python-elasticsearch (1.6.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Fladischer <fladi@debian.org>  Thu, 18 Jun 2015 16:52:40 +0200
+
+python-elasticsearch (1.5.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Change my email address to fladi@debian.org.
+  * Update years in d/copyright.
+
+ -- Michael Fladischer <fladi@debian.org>  Tue, 26 May 2015 15:08:33 +0200
+
+python-elasticsearch (1.4.0-2) unstable; urgency=medium
+
+  [ Michael Fladischer ]
+  * Change project URL to point to correct upstream repository for
+    uscan.
+  * Use the same sphinx cofiguration as for official online
+    documentation.
+
+  [ Thomas Goirand ]
+  * Team upload.
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 28 Apr 2015 13:02:36 +0000
+
+python-elasticsearch (1.4.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Uploading to experimental.
+  * Standards-Version: is now 3.9.6.
+  * Added python-sphinx-rtd-theme as Build-Depends-Indep.
+  * Moved some packages from Build-Depends to Build-Depends-Indep.
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 12 Feb 2015 13:42:27 +0000
+
+python-elasticsearch (1.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #760364).
+
+ -- Michael Fladischer <FladischerMichael@fladi.at>  Wed, 03 Sep 2014 13:17:06 +0200

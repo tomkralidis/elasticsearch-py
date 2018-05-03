@@ -1,0 +1,2 @@
+# Upstream does not provide detached PGP signatures for their source tarballs.
+python-elasticsearch source: debian-watch-may-check-gpg-signature

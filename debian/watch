@@ -1,0 +1,4 @@
+version=3
+opts=filenamemangle=s/.+\/([\d\.]+)\.tar\.gz/python-elasticsearch-$1.tar.gz/ \
+https://github.com/elastic/elasticsearch-py/releases \
+/elastic/elasticsearch-py/archive/([\d\.]+)\.tar\.gz

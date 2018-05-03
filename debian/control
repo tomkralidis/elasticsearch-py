@@ -1,0 +1,58 @@
+Source: python-elasticsearch
+Section: python
+Priority: extra
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-setuptools,
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Homepage: https://github.com/elasticsearch/elasticsearch-py
+Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-elasticsearch/trunk/
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-elasticsearch/trunk/
+
+Package: python-elasticsearch
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Suggests: python-elasticsearch-doc
+Description: Python client for Elasticsearch
+ Official low-level client for Elasticsearch. Its goal is to provide common
+ ground for all Elasticsearch-related code in Python; because of this it tries
+ to be opinion-free and very extendable.
+ .
+ The client's features include:
+  * translating basic Python data types to and from json (datetimes are not
+    decoded for performance reasons)
+  * configurable automatic discovery of cluster nodes
+  * persistent connections
+  * load balancing (with pluggable selection strategy) across all available
+    nodes
+  * failed connection penalization (time based - failed connections won't be
+    retried until a timeout is reached)
+  * thread safety
+  * pluggable architecture
+
+Package: python3-elasticsearch
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Suggests: python-elasticsearch-doc
+Description: Python client for Elasticsearch (Python3 version)
+ Official low-level client for Elasticsearch. Its goal is to provide common
+ ground for all Elasticsearch-related code in Python; because of this it tries
+ to be opinion-free and very extendable.
+ .
+ The client's features include:
+  * translating basic Python data types to and from json (datetimes are not
+    decoded for performance reasons)
+  * configurable automatic discovery of cluster nodes
+  * persistent connections
+  * load balancing (with pluggable selection strategy) across all available
+    nodes
+  * failed connection penalization (time based - failed connections won't be
+    retried until a timeout is reached)
+  * thread safety
+  * pluggable architecture
+ .
+ This package contains the Python 3 version of the library.
